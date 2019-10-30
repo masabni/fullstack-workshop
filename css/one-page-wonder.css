@@ -1,0 +1,178 @@
+/*
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../img/1900x500.png') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    font-size: 130px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.headline h2 {
+    font-size: 77px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.contributor-divider {
+    margin: 80px 0;
+}
+
+.contributor {
+    overflow: hidden;
+}
+
+.contributor-image.pull-left {
+    margin-right: 40px;
+}
+
+.contributor-image.pull-right {
+    margin-left: 40px;
+}
+
+.contributor-heading {
+    font-size: 50px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+
+    .contributor-divider {
+        margin: 50px 0;
+    }
+
+    .contributor-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .contributor-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .contributor-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .contributor-divider {
+        margin: 40px 0;
+    }
+
+    .contributor-image {
+        max-width: 50%;
+    }
+
+    .contributor-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .contributor-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .contributor-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .contributor-divider {
+        margin: 40px 0;
+    }
+
+    .contributor-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .contributor-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .contributor-divider {
+        margin: 10px 0;
+    }
+
+    .contributor-image {
+        max-width: 100%;
+    }
+
+    .contributor-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .contributor-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
