@@ -21,18 +21,23 @@ body {
 
 .headline {
     padding: 120px 0;
+    background: #ffffff url("../img/git.jpg") no-repeat right top;
 }
 
 .headline h1 {
     font-size: 130px;
-    background: #fff;
     background: rgba(255,255,255,0.9);
 }
 
 .headline h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgb(57, 175, 149);
+    border-radius: 20%;
+    
+}
+.headline h3{
+    color:rgb(174, 158, 143);
+    margin-top: 5%;
 }
 
 .contributor-divider {
@@ -41,6 +46,7 @@ body {
 
 .contributor {
     overflow: hidden;
+    
 }
 
 .contributor-image.pull-left {
@@ -53,15 +59,19 @@ body {
 
 .contributor-heading {
     font-size: 50px;
+    color:rgb(57, 175, 149);
 }
 
 footer {
     margin: 50px 0;
+    color:rgb(174, 158, 143) ;
+
 }
 
 @media(max-width:1200px) {
     .headline h1 {
         font-size: 140px;
+ 
     }
 
     .headline h2 {
