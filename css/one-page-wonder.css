@@ -16,7 +16,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover; 
+    -o-background-size: cover;
 }
 
 .headline {
@@ -33,7 +33,7 @@ body {
     font-size: 77px;
     background: rgb(57, 175, 149);
     border-radius: 20%;
-    
+
 }
 .headline h3{
     color:rgb(174, 158, 143);
@@ -46,7 +46,9 @@ body {
 
 .contributor {
     overflow: hidden;
-    
+    transition: all 1s;
+    padding: 2rem;
+    border-radius: 50px;
 }
 
 .contributor-image.pull-left {
@@ -63,8 +65,14 @@ body {
 }
 .contributor{
     border: 2px solid skyblue;
-    padding: 5px;
-    margin: 10px
+    margin: 10px;
+    padding: 2rem;
+}
+.contributor:hover {
+    background-color: #fbfbfb;
+    box-shadow: 0 0 25px -18px;
+    perspective: 400px;
+    transform: scale(1.02);
 }
 
 footer {
@@ -76,7 +84,7 @@ footer {
 @media(max-width:1200px) {
     .headline h1 {
         font-size: 140px;
- 
+
     }
 
     .headline h2 {
@@ -193,15 +201,4 @@ footer {
 }
 html{
     scroll-behavior: smooth;
-}
-#AhmadKurdi{
-    transition: all 1s;
-    padding: 2rem;
-    border-radius: 50px;
-}
-#AhmadKurdi:hover{
-    background-color: #fbfbfb;
-    box-shadow: 0 0 25px -18px;
-    perspective: 400px;
-    transform: scale(1.02);
 }
