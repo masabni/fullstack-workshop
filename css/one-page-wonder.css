@@ -191,3 +191,17 @@ footer {
         margin-left: 0;
     }
 }
+html{
+    scroll-behavior: smooth;
+}
+#AhmadKurdi{
+    transition: all 1s;
+    padding: 2rem;
+    border-radius: 50px;
+}
+#AhmadKurdi:hover{
+    background-color: #fbfbfb;
+    box-shadow: 0 0 25px -18px;
+    perspective: 400px;
+    transform: scale(1.02);
+}
