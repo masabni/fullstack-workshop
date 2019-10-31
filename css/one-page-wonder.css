@@ -16,7 +16,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; 
 }
 
 .headline {
@@ -60,6 +60,11 @@ body {
 .contributor-heading {
     font-size: 50px;
     color:rgb(57, 175, 149);
+}
+.contributor{
+    border: 2px solid skyblue;
+    padding: 5px;
+    margin: 10px
 }
 
 footer {
